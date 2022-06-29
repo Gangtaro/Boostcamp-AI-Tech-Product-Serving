@@ -18,7 +18,7 @@ root_password = 'password'
 
 
 def main():
-    st.title("Mask Classification Model")
+    st.title("Mask Classification Model - Github Action Deploy [TEST - 01]")
 
     with open("config.yaml") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
